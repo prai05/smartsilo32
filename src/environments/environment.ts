@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyBoFFy7mvpLHgzgN5IX2LxWd9KQ-qWY02o",
+    authDomain: "smartsilo32.firebaseapp.com",
+    databaseURL: "https://smartsilo32.firebaseio.com",
+    projectId: "smartsilo32",
+    storageBucket: "smartsilo32.appspot.com",
+    messagingSenderId: "607876928453",
+    appId: "1:607876928453:web:1f529946bd53944a5e31ac",
+    measurementId: "G-F1999NFHF3"
+  }
 };
 
 /*
